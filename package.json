@@ -1,0 +1,31 @@
+{
+  "name": "flores",
+  "version": "1.0.0",
+  "description": "Proyecto de API RESTFUL con Node.js y EXpress",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mongodb+srv://jdal2:cassandra&15J@cluster0-blefq.mongodb.net/test?retryWrites=true&w=majority"
+
+  },
+  "author": "Jimena",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+
+    "lockfileVersion": 1
+}
+
+
+
